@@ -1,0 +1,15 @@
+<!-- <% const nama = 'Kawan kawan'; %> -->
+<h1>SELAMAT DATANG</h1>
+<h3>Halo <%= nama %></h3>
+
+<h4>Daftar Mahasiswa</h4>
+<% if (mahasiswa.length < 1) { %>
+    <p>Data Masih Kosong</p>
+<% } %>
+
+<% mahasiswa.forEach(mhs => { %>
+    <ul>
+        <li>Nama : <%= mhs.nama %></li>
+        <li>Email : <%= mhs.email %></li>
+    </ul>
+<% }) %>
