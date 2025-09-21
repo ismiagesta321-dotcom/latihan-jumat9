@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+}
+.navbar{
+    height: 40px;
+    background-color: #44d6f0;
+    text-align: right;
+    padding-right:30px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right:20px;
+    margin-top:10px; 
+}
+.navbar a{
+    text-decoration:none;
+    color:#000275;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:rgb(255, 255, 255);
+}
+.container{
+    width:100%;
+    height:470px;
+    background-color: #dfdbdb;
+    color:rgb(3, 40, 247);
+}
+h1{
+    line-height: 70px;
+    text-align:center;
+    color:#ffffff;
+}
+h3{
+    text-align:center;
+    color:#eb0b0b;
+}
+h4{
+    padding-left:60px;
+}
+.footer{
+    height: 30px;
+    background-color: #f804e4;
+    color:#f202fa;
+    text-align: center;
+    font-size:small;
+    font-weight:bold;
+    padding-top:10px;
+}
+
+/*css about*/
+h2{
+    text-align:center;
+    padding-top:30px;
+    color:#f804cf;
+}
+.tentang{
+    padding: 0px 30px;
+    text-indent:50px;
+    text-align:justify;
+}
+
+/*css kontak*/
+.kontak{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.infoKontak{
+    margin-left:100px;
+    width:450px;
+    height:250px;
+    background-color:#fdb095;
+    padding-left:20px;
+    padding-top:20px;
+    color:#210440;
+}
+.kirimPesan{
+    margin-right:100px;
+    width:450px;
+    height:250px;
+    background-color:#e5958e;
+    padding-left:20px;
+    padding-top:20px;
+    color:#210440;
+}

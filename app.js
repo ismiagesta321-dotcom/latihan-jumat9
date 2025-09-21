@@ -8,6 +8,7 @@ const port = 3000;
 
 app.set('view engine','ejs');
 app.use(expressLayouts);
+app.use(express.static(__dirname));
 app.set('layout','layouts/main-layout');
 app.get('/', (req, res)=> {
    
